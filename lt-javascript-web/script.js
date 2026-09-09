@@ -27,6 +27,8 @@ while (senha.length != 8) {
 
 alert("Senha cadastrada com sucesso") */
 
+/* início do trecho comentado
+
 let opcao;
 let saldo= 0;
 let nome = "Maria";
@@ -57,3 +59,50 @@ do{
 } while(opcao!=0); //fim do menu
 
 alert("Programa encerrando...");
+
+fim do trecho comentado */
+
+/* 
+
+let qtProdutos = Number(prompt("Informe a quantidade de produtos: "));
+
+while (qtProdutos <1) {
+    qtProdutos = Number(prompt("Informe a quantidade de produtos: "));
+    }
+    totalValor=0;
+
+    for(let i=1; i <= qtProdutos; i++){
+        preco= Number(prompt("Informe o preço do produto" + i + ":"));
+
+        while(preco < 0) {
+            preco = Number(prompt("Preço inválido! Informe um valor maior ou igual a zero: "));
+            }
+
+        totalValor= totalValor + preco;
+
+    }//fim do for
+
+    alert("O valor total é: " + totalValor)
+
+    */
+
+
+let produtos = Number(prompt("Digite quantos produtos serão comprados: "));
+totalValor = 0
+
+while(produtos < 1) {
+    alert("A quantidade informada é inválida! Digite um valor acima de um.")
+}
+
+    for(let i=1; i <= produtos; i++){
+        preco = Number(prompt("Informe o preço do produto" + i + ":"));
+
+        while(preco < 0) {
+            preco = Number(prompt("Preço inválido! Informe um valor maior ou igual a zero: "));
+            }
+
+        totalValor= totalValor + preco;
+
+            }//fim do for
+
+    alert("O valor total é: " + totalValor)
