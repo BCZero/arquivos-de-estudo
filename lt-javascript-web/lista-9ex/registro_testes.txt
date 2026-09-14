@@ -1,0 +1,92 @@
+REGISTRO DE TESTES - LISTA PRÁTICA INTEGRADORA DE JAVASCRIPT
+Aluno: Bruno César Sampaio Ribeiro de Assis
+
+Exercício: 01
+Dados informados: lanche X-Burguer, preço R$ 18,00 e quantidade 2.
+Resultado obtido: subtotal R$ 36,00, embalagem R$ 2,50 e valor final R$ 38,50.
+O resultado está correto? Sim.
+
+Exercício: 01
+Dados informados: lanche X-Salada, preço R$ 20,00 e quantidade 3.
+Resultado obtido: subtotal R$ 60,00, embalagem gratuita e valor final R$ 60,00.
+O resultado está correto? Sim.
+
+Exercício: 02
+Dados informados: passageiro Ana e distância 10 km.
+Resultado obtido: valor calculado R$ 34,00, sem desconto, e valor final R$ 34,00.
+O resultado está correto? Sim.
+
+Exercício: 02
+Dados informados: passageiro Carlos e distância 25 km.
+Resultado obtido: valor calculado R$ 76,00, desconto R$ 7,60 e valor final R$ 68,40.
+O resultado está correto? Sim.
+
+Exercício: 03
+Dados informados: paciente Marta, 65 anos, gravidez N e deficiência N.
+Resultado obtido: paciente classificada para atendimento prioritário devido à idade.
+O resultado está correto? Sim.
+
+Exercício: 03
+Dados informados: paciente João, 30 anos, gravidez n e deficiência n.
+Resultado obtido: paciente classificado para atendimento comum.
+O resultado está correto? Sim.
+
+Exercício: 04
+Dados informados: estudante Bruno, notas 8 e 7 e frequência 80%.
+Resultado obtido: média 7,50 e situação Aprovado.
+O resultado está correto? Sim.
+
+Exercício: 04
+Dados informados: estudante Luana, notas 9 e 8 e frequência 70%.
+Resultado obtido: média 8,50 e situação Reprovado por falta.
+O resultado está correto? Sim.
+
+Exercício: 05
+Dados informados: carro e permanência de 5 horas.
+Resultado obtido: valor sem desconto R$ 40,00, desconto R$ 0,00 e valor final R$ 40,00.
+O resultado está correto? Sim.
+
+Exercício: 05
+Dados informados: utilitário e permanência de 10 horas.
+Resultado obtido: valor sem desconto R$ 120,00, desconto R$ 18,00 e valor final R$ 102,00.
+O resultado está correto? Sim.
+
+Exercício: 06
+Dados informados: cliente Paulo, opção 1 e atendimento urgente S.
+Resultado obtido: instalação elétrica de R$ 150,00, acréscimo R$ 45,00 e total R$ 195,00.
+O resultado está correto? Sim.
+
+Exercício: 06
+Dados informados: cliente Sofia e opção 9.
+Resultado obtido: mensagem de opção inválida e nenhum preço calculado.
+O resultado está correto? Sim.
+
+Exercício: 07
+Dados informados: cliente Pedro, compra R$ 200,00, região Sul, cupom ADS10 e PIX.
+Resultado obtido: desconto do cupom R$ 20,00, desconto do PIX R$ 9,00, frete R$ 15,00 e total R$ 186,00.
+O resultado está correto? Sim.
+
+Exercício: 07
+Dados informados: cliente Laura, compra R$ 300,00, região Norte, sem cupom e cartão.
+Resultado obtido: nenhum desconto, frete gratuito e valor final R$ 300,00.
+O resultado está correto? Sim.
+
+Exercício: 08
+Dados informados: hóspede Bruno, quarto Standard, 3 diárias, 2 hóspedes, com café e pagamento à vista.
+Resultado obtido: diárias R$ 540,00, café R$ 210,00, desconto à vista R$ 37,50 e total R$ 712,50.
+O resultado está correto? Sim.
+
+Exercício: 08
+Dados informados: hóspede Maria, quarto Família, 7 diárias, 4 hóspedes, sem café e pagamento no cartão.
+Resultado obtido: diárias originais R$ 1.960,00, desconto R$ 235,20 e total R$ 1.724,80.
+O resultado está correto? Sim.
+
+Exercício: 09
+Dados informados: nome Bruno, idade 32, carro SUV, 15 diárias, 2000 km previstos, sem seguro, cumpom ADS15, pagamento Pix.
+"ok" no relatório. Relatório exibido na tela do navegador. programa concluiu corretamente. 
+O resultado está correto? Sim.
+
+Exercício: 09
+Dados informados: nome Cliente: jose, Idade: 21, Veículo: Executivo, Diárias: 10, KM Prevista: 1000, Seguro: S
+Cupom: " " (vazio), Pagamento: Crédito. "ok" no relatório. Relatório exibido na tela do navegador. programa concluiu corretamente. 
+O resultado está correto? Sim.
