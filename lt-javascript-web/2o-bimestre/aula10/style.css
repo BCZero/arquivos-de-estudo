@@ -1,0 +1,81 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+ 
+
+body {
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f2f4f7;
+
+    color: #1f2937;
+
+}
+
+ 
+
+.container {
+
+    width: min(760px, 92%);
+
+    margin: 40px auto;
+
+    padding: 24px;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+}
+
+ 
+
+input, select, button {
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 8px;
+
+    margin-bottom: 12px;
+
+}
+
+ 
+
+button {
+
+    cursor: pointer;
+
+    background-color: #0b5cab;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 6px;
+
+}
+
+ 
+
+.erro {
+
+    color: #b42318;
+
+}
+
+ 
+
+.sucesso {
+
+    color: #067647;
+
+}
