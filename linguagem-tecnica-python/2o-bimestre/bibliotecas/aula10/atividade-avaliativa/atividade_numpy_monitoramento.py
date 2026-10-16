@@ -1,3 +1,6 @@
+### Bruno Sampaio
+### ADS-2A | LTP 1
+
 import numpy as np
 
 
