@@ -1,0 +1,38 @@
+/* Aplica a regra a todos os elementos da página. */
+
+* {
+
+  /* Inclui bordas e espaçamento interno no cálculo do tamanho. */
+
+  box-sizing: border-box;
+
+}
+
+ 
+
+/* Define a aparência geral do corpo da página. */
+
+body {
+
+  /* Remove a margem que o navegador coloca por padrão. */
+
+  margin: 0;
+
+  /* Impede que o corpo da página fique mais estreito que 320px. */
+
+  min-width: 320px;
+
+  /* Usa Arial ou, se ela não estiver disponível, outra fonte sem serifa. */
+
+  font-family: Arial, sans-serif;
+
+  /* Define um fundo cinza-claro para a página. */
+
+  background-color: #f2f4f7;
+
+  /* Define a cor principal do texto. */
+
+  color: #1f2937;
+
+}
+

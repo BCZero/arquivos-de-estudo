@@ -1,0 +1,1420 @@
+REGISTRO DE TESTES - LISTA DOM - BRUNO SAMPAIO
+Data: 16/10/2026 (America/Sao_Paulo)
+Ambiente: Node.js e JSDOM 26.1.0.
+Método: carregamento dos oito HTMLs reais, seus scripts e folhas de estilo locais,
+com preenchimento de campos, cliques e verificação do DOM simulado.
+Total: 74 testes; 0 falhas; 0 erros de execução.
+
+LIMITAÇÃO DA VERIFICAÇÃO
+O controle do Google Chrome foi interrompido pela ferramenta, que não conseguiu
+identificar a URL atual com segurança. Os testes abaixo foram executados em
+DOM simulado, e não equivalem à conferência visual e do console no Chrome.
+A verificação manual no Google Chrome solicitada no enunciado permanece pendente:
+abra o index.html principal, acesse os oito exercícios, repita os dados abaixo
+e confirme a aparência e a ausência de erros no console (F12 > Console).
+
+Teste 1 - Exercício 1
+
+Dados utilizados:
+Página recém-aberta
+
+Resultado esperado:
+Parágrafo vazio
+
+Resultado apresentado:
+Parágrafo vazio
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 2 - Exercício 1
+
+Dados utilizados:
+Nome vazio
+
+Resultado esperado:
+Informe seu nome. (classe erro)
+
+Resultado apresentado:
+Informe seu nome. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 3 - Exercício 1
+
+Dados utilizados:
+Nome contendo somente espaços
+
+Resultado esperado:
+Informe seu nome. (classe erro)
+
+Resultado apresentado:
+Informe seu nome. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 4 - Exercício 1
+
+Dados utilizados:
+Nome: "   Ana   "
+
+Resultado esperado:
+Olá, Ana! Boas-vindas ao sistema. (classe sucesso)
+
+Resultado apresentado:
+Olá, Ana! Boas-vindas ao sistema. (classe mensagem sucesso)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 5 - Exercício 1
+
+Dados utilizados:
+Nome com marcação HTML
+
+Resultado esperado:
+Texto literal, sem elemento b
+
+Resultado apresentado:
+Texto literal, sem elemento b
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 6 - Exercício 2
+
+Dados utilizados:
+Todos os campos vazios
+
+Resultado esperado:
+Preencha todos os campos. (classe erro)
+
+Resultado apresentado:
+Preencha todos os campos. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 7 - Exercício 2
+
+Dados utilizados:
+Produto: Caderno; preço: 25.50; quantidade: 3
+
+Resultado esperado:
+Produto: CadernoPreço unitário: R$ 25,50Quantidade: 3Total da compra: R$ 76,50
+
+Resultado apresentado:
+Produto: CadernoPreço unitário: R$ 25,50Quantidade: 3Total da compra: R$ 76,50
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 8 - Exercício 2
+
+Dados utilizados:
+Campo vazio: nome
+
+Resultado esperado:
+Preencha todos os campos. (classe erro)
+
+Resultado apresentado:
+Preencha todos os campos. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 9 - Exercício 2
+
+Dados utilizados:
+Campo vazio: preco
+
+Resultado esperado:
+Preencha todos os campos. (classe erro)
+
+Resultado apresentado:
+Preencha todos os campos. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 10 - Exercício 2
+
+Dados utilizados:
+Campo vazio: quantidade
+
+Resultado esperado:
+Preencha todos os campos. (classe erro)
+
+Resultado apresentado:
+Preencha todos os campos. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 11 - Exercício 2
+
+Dados utilizados:
+Preço zero
+
+Resultado esperado:
+O preço deve ser um número maior que zero. (classe erro)
+
+Resultado apresentado:
+O preço deve ser um número maior que zero. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 12 - Exercício 2
+
+Dados utilizados:
+Preço negativo
+
+Resultado esperado:
+O preço deve ser um número maior que zero. (classe erro)
+
+Resultado apresentado:
+O preço deve ser um número maior que zero. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 13 - Exercício 2
+
+Dados utilizados:
+Quantidade: 1.5
+
+Resultado esperado:
+A quantidade deve ser um número inteiro maior que zero. (classe erro)
+
+Resultado apresentado:
+A quantidade deve ser um número inteiro maior que zero. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 14 - Exercício 2
+
+Dados utilizados:
+Quantidade zero
+
+Resultado esperado:
+A quantidade deve ser um número inteiro maior que zero. (classe erro)
+
+Resultado apresentado:
+A quantidade deve ser um número inteiro maior que zero. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 15 - Exercício 2
+
+Dados utilizados:
+Tentativa inválida após cálculo válido
+
+Resultado esperado:
+Resumo anterior oculto
+
+Resultado apresentado:
+Resumo anterior oculto
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 16 - Exercício 3
+
+Dados utilizados:
+Campos vazios
+
+Resultado esperado:
+Preencha o nome e as duas notas. (classe erro)
+
+Resultado apresentado:
+Preencha o nome e as duas notas. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 17 - Exercício 3
+
+Dados utilizados:
+Ana; notas: 8 e 6
+
+Resultado esperado:
+Estudante: Ana | Média: 7.00 | Situação: Aprovado (classe aprovado)
+
+Resultado apresentado:
+Estudante: Ana | Média: 7.00 | Situação: Aprovado (classe mensagem aprovado)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 18 - Exercício 3
+
+Dados utilizados:
+Ana; notas: 5 e 5
+
+Resultado esperado:
+Estudante: Ana | Média: 5.00 | Situação: Recuperação (classe recuperacao)
+
+Resultado apresentado:
+Estudante: Ana | Média: 5.00 | Situação: Recuperação (classe mensagem recuperacao)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 19 - Exercício 3
+
+Dados utilizados:
+Ana; notas: 4 e 4
+
+Resultado esperado:
+Estudante: Ana | Média: 4.00 | Situação: Reprovado (classe reprovado)
+
+Resultado apresentado:
+Estudante: Ana | Média: 4.00 | Situação: Reprovado (classe mensagem reprovado)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 20 - Exercício 3
+
+Dados utilizados:
+Ana; notas: 0 e 0
+
+Resultado esperado:
+Estudante: Ana | Média: 0.00 | Situação: Reprovado (classe reprovado)
+
+Resultado apresentado:
+Estudante: Ana | Média: 0.00 | Situação: Reprovado (classe mensagem reprovado)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 21 - Exercício 3
+
+Dados utilizados:
+Ana; notas: 10 e 10
+
+Resultado esperado:
+Estudante: Ana | Média: 10.00 | Situação: Aprovado (classe aprovado)
+
+Resultado apresentado:
+Estudante: Ana | Média: 10.00 | Situação: Aprovado (classe mensagem aprovado)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 22 - Exercício 3
+
+Dados utilizados:
+Ana; notas: 6.99 e 6.99
+
+Resultado esperado:
+Estudante: Ana | Média: 6.99 | Situação: Recuperação (classe recuperacao)
+
+Resultado apresentado:
+Estudante: Ana | Média: 6.99 | Situação: Recuperação (classe mensagem recuperacao)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 23 - Exercício 3
+
+Dados utilizados:
+Ana; notas: 4.99 e 4.99
+
+Resultado esperado:
+Estudante: Ana | Média: 4.99 | Situação: Reprovado (classe reprovado)
+
+Resultado apresentado:
+Estudante: Ana | Média: 4.99 | Situação: Reprovado (classe mensagem reprovado)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 24 - Exercício 3
+
+Dados utilizados:
+Nota fora do intervalo: -1
+
+Resultado esperado:
+As notas devem ser números entre 0 e 10. (classe erro)
+
+Resultado apresentado:
+As notas devem ser números entre 0 e 10. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 25 - Exercício 3
+
+Dados utilizados:
+Nota fora do intervalo: 11
+
+Resultado esperado:
+As notas devem ser números entre 0 e 10. (classe erro)
+
+Resultado apresentado:
+As notas devem ser números entre 0 e 10. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 26 - Exercício 3
+
+Dados utilizados:
+Campo vazio: nome
+
+Resultado esperado:
+Preencha o nome e as duas notas. (classe erro)
+
+Resultado apresentado:
+Preencha o nome e as duas notas. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 27 - Exercício 3
+
+Dados utilizados:
+Campo vazio: nota1
+
+Resultado esperado:
+Preencha o nome e as duas notas. (classe erro)
+
+Resultado apresentado:
+Preencha o nome e as duas notas. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 28 - Exercício 3
+
+Dados utilizados:
+Campo vazio: nota2
+
+Resultado esperado:
+Preencha o nome e as duas notas. (classe erro)
+
+Resultado apresentado:
+Preencha o nome e as duas notas. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 29 - Exercício 4
+
+Dados utilizados:
+Estado inicial
+
+Resultado esperado:
+Lista vazia; total 0
+
+Resultado apresentado:
+Lista vazia; total 0
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 30 - Exercício 4
+
+Dados utilizados:
+Nome vazio
+
+Resultado esperado:
+Informe o nome do participante. (classe erro)
+
+Resultado apresentado:
+Informe o nome do participante. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 31 - Exercício 4
+
+Dados utilizados:
+Nome: "  Ana  "
+
+Resultado esperado:
+Participante cadastrado com sucesso. (classe sucesso)
+
+Resultado apresentado:
+Participante cadastrado com sucesso. (classe mensagem sucesso)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 32 - Exercício 4
+
+Dados utilizados:
+Após cadastro válido
+
+Resultado esperado:
+Ana; total 1; campo limpo; foco no nome
+
+Resultado apresentado:
+Ana; total 1; campo limpo; foco no nome
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 33 - Exercício 4
+
+Dados utilizados:
+Duplicata com letra minúscula: ana
+
+Resultado esperado:
+Esse participante já foi cadastrado. (classe erro)
+
+Resultado apresentado:
+Esse participante já foi cadastrado. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 34 - Exercício 4
+
+Dados utilizados:
+Após duplicidade
+
+Resultado esperado:
+Total 1
+
+Resultado apresentado:
+Total 1
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 35 - Exercício 4
+
+Dados utilizados:
+Segundo participante: Bruno
+
+Resultado esperado:
+2 participantes
+
+Resultado apresentado:
+2 participantes
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 36 - Exercício 5
+
+Dados utilizados:
+Campos vazios
+
+Resultado esperado:
+Preencha todos os campos. (classe erro)
+
+Resultado apresentado:
+Preencha todos os campos. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 37 - Exercício 5
+
+Dados utilizados:
+Teclado; preço 120; quantidade 2
+
+Resultado esperado:
+1 produto; 2 unidades; R$ 240,00
+
+Resultado apresentado:
+1 produto; 2 unidades; R$ 240,00
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 38 - Exercício 5
+
+Dados utilizados:
+Registro individual
+
+Resultado esperado:
+Produto: TecladoPreço unitário: R$ 120,00Quantidade: 2Subtotal: R$ 240,00
+
+Resultado apresentado:
+Produto: TecladoPreço unitário: R$ 120,00Quantidade: 2Subtotal: R$ 240,00
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 39 - Exercício 5
+
+Dados utilizados:
+Adicionar Mouse; preço 50; quantidade 3
+
+Resultado esperado:
+2 produtos; 5 unidades; R$ 390,00
+
+Resultado apresentado:
+2 produtos; 5 unidades; R$ 390,00
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 40 - Exercício 5
+
+Dados utilizados:
+Repetir nome teclado
+
+Resultado esperado:
+2 produtos diferentes; 3 registros; 6 unidades; R$ 510,00
+
+Resultado apresentado:
+2 produtos diferentes; 3 registros; 6 unidades; R$ 510,00
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 41 - Exercício 5
+
+Dados utilizados:
+Preço negativo
+
+Resultado esperado:
+O preço deve ser um número maior que zero. (classe erro)
+
+Resultado apresentado:
+O preço deve ser um número maior que zero. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 42 - Exercício 5
+
+Dados utilizados:
+Quantidade fracionária: 1.5
+
+Resultado esperado:
+A quantidade deve ser um número inteiro maior que zero. (classe erro)
+
+Resultado apresentado:
+A quantidade deve ser um número inteiro maior que zero. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 43 - Exercício 5
+
+Dados utilizados:
+Quantidade zero
+
+Resultado esperado:
+A quantidade deve ser um número inteiro maior que zero. (classe erro)
+
+Resultado apresentado:
+A quantidade deve ser um número inteiro maior que zero. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 44 - Exercício 5
+
+Dados utilizados:
+Cadastros inválidos
+
+Resultado esperado:
+3 registros mantidos
+
+Resultado apresentado:
+3 registros mantidos
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 45 - Exercício 6
+
+Dados utilizados:
+Campos vazios
+
+Resultado esperado:
+Preencha a descrição, o responsável e selecione a prioridade. (classe erro)
+
+Resultado apresentado:
+Preencha a descrição, o responsável e selecione a prioridade. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 46 - Exercício 6
+
+Dados utilizados:
+Prioridade não selecionada
+
+Resultado esperado:
+Preencha a descrição, o responsável e selecione a prioridade. (classe erro)
+
+Resultado apresentado:
+Preencha a descrição, o responsável e selecione a prioridade. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 47 - Exercício 6
+
+Dados utilizados:
+Cadastrar uma tarefa de cada prioridade
+
+Resultado esperado:
+3 tarefas; 1 alta; classes distintas; formulário limpo
+
+Resultado apresentado:
+3 tarefas; 1 alta; classes distintas; formulário limpo
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 48 - Exercício 6
+
+Dados utilizados:
+Conteúdo da primeira tarefa
+
+Resultado esperado:
+Tarefa: Atualizar a páginaResponsável: MarianaPrioridade: Alta
+
+Resultado apresentado:
+Tarefa: Atualizar a páginaResponsável: MarianaPrioridade: Alta
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 49 - Exercício 6
+
+Dados utilizados:
+Descrição com espaços
+
+Resultado esperado:
+Preencha a descrição, o responsável e selecione a prioridade. (classe erro)
+
+Resultado apresentado:
+Preencha a descrição, o responsável e selecione a prioridade. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 50 - Exercício 7
+
+Dados utilizados:
+Estado inicial
+
+Resultado esperado:
+Pedido vazio; 0 unidades; R$ 0,00
+
+Resultado apresentado:
+Pedido vazio; 0 unidades; R$ 0,00
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 51 - Exercício 7
+
+Dados utilizados:
+Limpar pedido vazio
+
+Resultado esperado:
+O pedido já está vazio. Não há itens para limpar. (classe erro)
+
+Resultado apresentado:
+O pedido já está vazio. Não há itens para limpar. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 52 - Exercício 7
+
+Dados utilizados:
+Campos vazios
+
+Resultado esperado:
+Preencha todos os campos. (classe erro)
+
+Resultado apresentado:
+Preencha todos os campos. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 53 - Exercício 7
+
+Dados utilizados:
+Sanduíche; preço 15; quantidade 2
+
+Resultado esperado:
+Item: SanduíchePreço unitário: R$ 15,00Quantidade: 2Subtotal: R$ 30,00
+
+Resultado apresentado:
+Item: SanduíchePreço unitário: R$ 15,00Quantidade: 2Subtotal: R$ 30,00
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 54 - Exercício 7
+
+Dados utilizados:
+Adicionar Suco; preço 5; quantidade 3
+
+Resultado esperado:
+5 unidades; R$ 45,00
+
+Resultado apresentado:
+5 unidades; R$ 45,00
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 55 - Exercício 7
+
+Dados utilizados:
+Preço zero
+
+Resultado esperado:
+O preço deve ser um número maior que zero. (classe erro)
+
+Resultado apresentado:
+O preço deve ser um número maior que zero. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 56 - Exercício 7
+
+Dados utilizados:
+Quantidade negativa
+
+Resultado esperado:
+A quantidade deve ser maior que zero. (classe erro)
+
+Resultado apresentado:
+A quantidade deve ser maior que zero. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 57 - Exercício 7
+
+Dados utilizados:
+Quantidade zero
+
+Resultado esperado:
+A quantidade deve ser maior que zero. (classe erro)
+
+Resultado apresentado:
+A quantidade deve ser maior que zero. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 58 - Exercício 7
+
+Dados utilizados:
+Limpar pedido com dois itens
+
+Resultado esperado:
+Pedido limpo com sucesso. (classe sucesso)
+
+Resultado apresentado:
+Pedido limpo com sucesso. (classe mensagem sucesso)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 59 - Exercício 7
+
+Dados utilizados:
+Depois de limpar
+
+Resultado esperado:
+Lista vazia; 0 unidades; R$ 0,00; mensagem de pedido vazio
+
+Resultado apresentado:
+Lista vazia; 0 unidades; R$ 0,00; mensagem de pedido vazio
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 60 - Exercício 7
+
+Dados utilizados:
+Novo pedido após limpeza; Porção; 10; 0.5
+
+Resultado esperado:
+0.5 unidades; R$ 5,00
+
+Resultado apresentado:
+0.5 unidades; R$ 5,00
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 61 - Exercício 8
+
+Dados utilizados:
+Estado inicial
+
+Resultado esperado:
+Fila vazia; total 0; prioritários 0
+
+Resultado apresentado:
+Fila vazia; total 0; prioritários 0
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 62 - Exercício 8
+
+Dados utilizados:
+Campos vazios
+
+Resultado esperado:
+Preencha o nome, a idade e o tipo de atendimento. (classe erro)
+
+Resultado apresentado:
+Preencha o nome, a idade e o tipo de atendimento. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 63 - Exercício 8
+
+Dados utilizados:
+Ana; 30 anos; Normal
+
+Resultado esperado:
+1 paciente; 0 prioritários
+
+Resultado apresentado:
+1 paciente; 0 prioritários
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 64 - Exercício 8
+
+Dados utilizados:
+José; 60 anos; selecionado Normal
+
+Resultado esperado:
+Paciente cadastrado como prioritário por ter 60 anos ou mais. (classe sucesso)
+
+Resultado apresentado:
+Paciente cadastrado como prioritário por ter 60 anos ou mais. (classe mensagem sucesso)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 65 - Exercício 8
+
+Dados utilizados:
+José deve ter prioridade automática
+
+Resultado esperado:
+2 pacientes; 1 prioritário; José prioritário
+
+Resultado apresentado:
+2 pacientes; 1 prioritário; José prioritário
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 66 - Exercício 8
+
+Dados utilizados:
+Maria; 25 anos; Prioritário
+
+Resultado esperado:
+3 pacientes; 2 prioritários
+
+Resultado apresentado:
+3 pacientes; 2 prioritários
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 67 - Exercício 8
+
+Dados utilizados:
+Idade inválida: 0
+
+Resultado esperado:
+A idade deve ser um número inteiro maior que zero. (classe erro)
+
+Resultado apresentado:
+A idade deve ser um número inteiro maior que zero. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 68 - Exercício 8
+
+Dados utilizados:
+Idade inválida: -1
+
+Resultado esperado:
+A idade deve ser um número inteiro maior que zero. (classe erro)
+
+Resultado apresentado:
+A idade deve ser um número inteiro maior que zero. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 69 - Exercício 8
+
+Dados utilizados:
+Idade inválida: 2.5
+
+Resultado esperado:
+A idade deve ser um número inteiro maior que zero. (classe erro)
+
+Resultado apresentado:
+A idade deve ser um número inteiro maior que zero. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 70 - Exercício 8
+
+Dados utilizados:
+Nome com espaços
+
+Resultado esperado:
+Preencha o nome, a idade e o tipo de atendimento. (classe erro)
+
+Resultado apresentado:
+Preencha o nome, a idade e o tipo de atendimento. (classe mensagem erro)
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 71 - Exercício 8
+
+Dados utilizados:
+Remover José do meio da fila
+
+Resultado esperado:
+2 pacientes; 1 prioritário; Ana e Maria
+
+Resultado apresentado:
+2 pacientes; 1 prioritário; Ana e Maria
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 72 - Exercício 8
+
+Dados utilizados:
+Remover Maria após reconstrução da lista
+
+Resultado esperado:
+1 paciente; 0 prioritários
+
+Resultado apresentado:
+1 paciente; 0 prioritários
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 73 - Exercício 8
+
+Dados utilizados:
+Remover último paciente
+
+Resultado esperado:
+Fila vazia; total 0; prioritários 0
+
+Resultado apresentado:
+Fila vazia; total 0; prioritários 0
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------
+
+Teste 74 - Exercício 8
+
+Dados utilizados:
+Erros de execução no ambiente de teste DOM simulado
+
+Resultado esperado:
+Nenhum erro
+
+Resultado apresentado:
+Nenhum erro
+
+Correção realizada:
+Nenhuma correção necessária.
+
+Situação:
+Teste concluído com sucesso no DOM simulado.
+
+----------------------------------------

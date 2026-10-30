@@ -1,0 +1,20 @@
+ATIVIDADE 1 - 2º BIMESTRE - JAVASCRIPT WEB
+Autor: Bruno Sampaio
+
+COMO EXECUTAR
+Extraia o ZIP e abra o index.html da pasta principal no Google Chrome.
+Escolha um dos oito exercícios no menu. Também é possível abrir diretamente
+o index.html de qualquer subpasta exercicio01 a exercicio08.
+Não é necessário instalar dependências nem iniciar um servidor.
+
+ORGANIZAÇÃO
+Cada exercício possui seus próprios index.html, style.css e script.js.
+Os testes realizados estão documentados no arquivo testes.txt.
+
+OBSERVAÇÕES
+Os dados ficam em memória e são reiniciados ao recarregar a página.
+Valores monetários são exibidos em reais com duas casas decimais.
+No estoque, cadastros com o mesmo nome (ignorando maiúsculas/minúsculas)
+contam como um único produto diferente, mas cada cadastro gera um registro.
+Na lanchonete, quantidades fracionárias positivas são aceitas conforme o enunciado.
+Na clínica, a idade a partir de 60 anos prevalece sobre a opção Normal.

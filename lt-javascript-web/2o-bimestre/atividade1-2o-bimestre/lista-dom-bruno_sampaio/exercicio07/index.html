@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 07 • Pedido da lanchonete</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<main>
+    <a class="voltar" href="../index.html">← Todos os exercícios</a>
+    <header><span class="etiqueta">JavaScript e DOM / Exercício 07</span><h1>Pedido da lanchonete</h1><p>Adicione os itens e acompanhe o valor do pedido.</p></header>
+    <form novalidate>
+        <div class="campos"><label for="nome">Nome do item<input id="nome" name="nome" type="text" autocomplete="off" required></label><label for="preco">Preço unitário (R$)<input id="preco" name="preco" type="number" min="0.01" step="0.01" required></label><label for="quantidade">Quantidade<input id="quantidade" name="quantidade" type="number" min="0.01" step="any" required></label></div>
+        <button id="acao" type="submit">Adicionar ao pedido</button>
+        <button id="limpar" class="secundario" type="button">Limpar pedido</button>
+    </form>
+    <p id="mensagem" class="mensagem" role="status" aria-live="polite"></p>
+    <section class="painel" aria-labelledby="titulo-lista"><h2 id="titulo-lista">Itens do pedido</h2><p class="vazio" id="vazio">O pedido está vazio. Adicione um item para começar.</p><ul id="lista" class="registros"></ul><div class="resumo"><p>Unidades: <strong id="total-unidades">0</strong></p><p>Valor do pedido: <strong id="total-valor">R$ 0,00</strong></p></div></section>
+    <footer>Bruno Sampaio · Lista de exercícios de manipulação do DOM</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 04 • Participantes do evento</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<main>
+    <a class="voltar" href="../index.html">← Todos os exercícios</a>
+    <header><span class="etiqueta">JavaScript e DOM / Exercício 04</span><h1>Participantes do evento</h1><p>Cadastre os participantes e acompanhe o total de inscrições.</p></header>
+    <form novalidate>
+        <div class="campos"><label for="nome">Nome do participante<input id="nome" name="nome" type="text" autocomplete="off" required></label></div>
+        <button id="acao" type="submit">Adicionar participante</button>
+        
+    </form>
+    <p id="mensagem" class="mensagem" role="status" aria-live="polite"></p>
+    <section class="painel" aria-labelledby="titulo-lista"><h2 id="titulo-lista">Participantes cadastrados</h2><ul id="lista" class="registros"></ul><div class="resumo"><p>Participantes: <strong id="total">0</strong></p></div></section>
+    <footer>Bruno Sampaio · Lista de exercícios de manipulação do DOM</footer>
+</main>
+</body>
+</html>

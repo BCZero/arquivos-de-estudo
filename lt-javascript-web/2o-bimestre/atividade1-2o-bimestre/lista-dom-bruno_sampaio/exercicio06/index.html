@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 06 • Organizador de tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<main>
+    <a class="voltar" href="../index.html">← Todos os exercícios</a>
+    <header><span class="etiqueta">JavaScript e DOM / Exercício 06</span><h1>Organizador de tarefas</h1><p>Organize as atividades por responsável e prioridade.</p></header>
+    <form novalidate>
+        <div class="campos"><label for="descricao">Descrição da tarefa<input id="descricao" name="descricao" type="text"  required></label><label for="responsavel">Nome do responsável<input id="responsavel" name="responsavel" type="text"  required></label><label for="prioridade">Prioridade<select id="prioridade" name="prioridade" required><option value="">Selecione</option><option value="Baixa">Baixa</option><option value="Média">Média</option><option value="Alta">Alta</option></select></label></div>
+        <button id="acao" type="submit">Cadastrar tarefa</button>
+        
+    </form>
+    <p id="mensagem" class="mensagem" role="status" aria-live="polite"></p>
+    <section class="painel" aria-labelledby="titulo-lista"><h2 id="titulo-lista">Tarefas cadastradas</h2><ul id="lista" class="registros"></ul><div class="resumo"><p>Tarefas: <strong id="total">0</strong></p><p>Prioridade alta: <strong id="total-altas">0</strong></p></div></section>
+    <footer>Bruno Sampaio · Lista de exercícios de manipulação do DOM</footer>
+</main>
+</body>
+</html>
